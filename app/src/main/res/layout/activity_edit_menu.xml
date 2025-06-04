@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/etJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Film" />
+    <EditText
+        android:id="@+id/etDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"/>
+    <EditText
+        android:id="@+id/etGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link Gambar" />
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+    <!-- Sama seperti activity_tambah_menu.xml, tapi button ubah & hapus -->
+    <Button
+        android:id="@+id/btnUbah"
+        android:text="Ubah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnHapus"
+        android:text="Hapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4444"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

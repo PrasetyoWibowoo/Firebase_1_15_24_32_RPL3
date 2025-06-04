@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:clipChildren="false"
+            android:id="@+id/r253y11c3er5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1E1E1E"
+            android:paddingTop="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/rfhkaoq74oz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginHorizontal="19dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ro0b8bvwty2s"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/logo_png_1" />
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/r1w0fz5wm3y1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:id="@+id/r02t34oeqzkm9"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/rfvtdc05zxj6"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/group_1" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rm6zipl92w6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginHorizontal="23dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/r3ij7w7j520t"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/sffffffsw1cr30bd9d9d9"
+                        android:paddingVertical="6dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/rwmh8aryzbcb"
+                            android:textColor="#CE6200"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Movies"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/seriesBt"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/sffffffsw1cr30bd9d9d9"
+                        android:paddingVertical="6dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/series"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Series"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/tvShowBt"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/sffffffsw1cr30bd9d9d9"
+                        android:paddingVertical="6dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/show"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="TV SHOW"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:id="@+id/r5lr1fb1p3i5_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="404dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginHorizontal="19dp"
+                    >
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/r5lr1fb1p3i5"
+                        android:layout_width="match_parent"
+                        android:layout_height="404dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/betmen1"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="11dp"
+                        android:paddingTop="332dp"
+                        android:paddingBottom="37dp">
+
+                        <ImageView
+                            android:id="@+id/rxhe7v93nua"
+                            android:layout_width="151dp"
+                            android:layout_height="60dp"
+                            android:layout_marginEnd="11dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/playbutton1" />
+
+                        <ImageView
+                            android:id="@+id/rcednvsv02n9"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="155dp"
+                            android:layout_marginTop="-55dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add1"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:id="@+id/rvhzual4nuxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="19dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:id="@+id/rmrqdykuxhcm"
+                            android:layout_width="126dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginEnd="19dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:id="@+id/rlcibbcret5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r12jcv0m2m9nk"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="For You"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="25sp" />
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rte14ed9r3wl"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:layout_marginTop="5dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/vppo7eookkjosobsglyixldb0dj_1"
+                                    app:shapeAppearanceOverlay="@style/cr20" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rg5l813g7q7t"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="39dp"
+                            android:layout_marginEnd="27dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/_f2f716e_162e_47af_b63e_78a279d15f94_1"
+                            app:shapeAppearanceOverlay="@style/cr20" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rf0l3qwap43s"
+                            android:layout_width="127dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="39dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/h7bb107c09c09499e84a3d3acac9228c3f_jpg_640x640q90_1__1_"
+                            app:shapeAppearanceOverlay="@style/cr20" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rqfzv0lbweu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/r60v51cotpj4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="108dp"
+                        android:text="John Wick : Chapter 4 Keanu Reeves"
+                        />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/rvk4ek9raxq9"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Mortal Kombat"
+                        />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+                    <TextView
+                        android:id="@+id/rj1p0ut4dy7"
+                        android:textColor="#FFFFFF"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Avatar : The Last Airbender"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rnxgmqi2f4pq"
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="#363636"
+                    android:layout_marginBottom="11dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rab5q9t9fl0t"
+                    android:layout_width="425dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="0dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btn_home"
+                        android:layout_width="36dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/group_5" />
+
+                    <LinearLayout
+                        android:id="@+id/rjo23mfxko3"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="71dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/btn_queue"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-11dp"
+                        app:srcCompat="@drawable/group_8" />
+
+                    <LinearLayout
+                        android:id="@+id/rtn3r10h72ym"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/btn_str"
+                        android:layout_width="36dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/group_7" />
+
+                    <ImageView
+                        android:id="@+id/btn_Profile"
+                        android:layout_width="36dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/group_6" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

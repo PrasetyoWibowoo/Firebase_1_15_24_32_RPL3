@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739780169476",
+    "project_id": "fir-pas-98b79",
+    "storage_bucket": "fir-pas-98b79.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739780169476:android:bbe9aed6e1501341650a51",
+        "android_client_info": {
+          "package_name": "com.example.firebase_24_32_rpl3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739780169476-vja7mf3nlh8nii6q90996amab4q45cf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMIP9SFJTCfE180Y9WgSTG3X4TSzaVGT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739780169476-vja7mf3nlh8nii6q90996amab4q45cf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
